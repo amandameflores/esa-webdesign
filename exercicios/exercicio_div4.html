@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabalhando com CSS</title>
+    <style type="text/css">
+        *{ margin: 0; padding: 0; list-style: none; } /*CSS Reset*/
+        body p {
+            font: 12px arial, verdana, tahoma;
+            color: #000;
+        }
+
+        #geral {
+            width: 980px;
+            margin: 0px auto;
+        }
+        #geral #topo {
+            width: 100%;
+            height: 130px;
+            background: #777;
+        }
+        #geral #menu {
+            width: 20%;
+            height: 400px;
+            background: #333;
+            float: left;
+        }
+        #geral #conteudo {
+            width: 80%;
+            height: 400px;
+            background: #ccc;
+            float: right;
+        }
+        #geral #rodape {
+            width: 100%;
+            height: 100px;
+            background: #777;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="geral"> /* Inicio da div geral */
+        <div id="topo"><p>Aqui, colocamos elementos como logotipo, telefones
+            e slogan da empresa.</p></div>
+        <div id="menu"><p>Aqui, colocamos a lista de menus</p></div>
+        <div id="conteudo"><p>Aqui, colocamos o conteúdo do site (fotos,
+            textos, títulos e vídeos)</p></div>
+        <div id="rodape"><p>Aqui são as informações de direitos autorais,
+            endereço e mapa do site</p></div>
+    </div> /* Fim da div geral */
+</body>
+</html>

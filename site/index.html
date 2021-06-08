@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página completa</title>
+    <style type="text/css">
+        * {margin: 0; padding: 0; list-style: none;} /* CSS Reset */
+        header {
+            width: 100%;
+            height: 80px; }
+        
+        header #topo {
+            width: 980px;
+            height: 80px;
+            margin: 0px auto;
+            position: relative;
+        }
+
+        header #topo #logotipo {
+            width: 150px;
+            height: 67px;
+            position: absolute;
+            top: 5px;
+            left: 0px;
+        }
+
+        header #topo #menu {
+            width: 400px;
+            height: 30px;
+            position: absolute;
+            top: 35px;
+            right: 0px;
+        }
+
+        header #topo #menu p{
+            font: 16px Arial, Verdana, Tahoma;
+            text-align: center;
+        }
+
+        header #topo #menu p a{
+            color: #333;
+            text-decoration: none;
+        }
+
+        header #topo #menu p a:hover{
+            color: #006;
+            text-decoration: underline;
+        }
+
+        section {
+            width: 100%;
+            height: 600px;
+            background: url(fundo_banner.jpg);
+            background-repeat: repeat-x; }
+
+        section #conteudo {
+            width: 980px;
+            height: 600px;
+            margin: 0px auto;
+        }
+
+        section #conteudo #empurra_banner {
+            width: 980px;
+            height: 36px;
+        }
+
+        section #conteudo #banner {
+            width: 980px;
+            height: 230px;
+        }
+
+        section #conteudo h1 {
+            font: bold 18px Arial, Verdana, Tahoma;
+            color: #333;
+            margin-top: 50px;
+        }
+
+        section #conteudo p {
+            font: 14px Arial, Verdana, Tahoma;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        footer {
+            width: 100%;
+            height: 78px;
+            background: url(fundo_rodape.jpg);
+            background-repeat: repeat-x;
+        }
+
+        footer #rodape {
+            width: 980px;
+            height: 78px;
+            margin: 0px auto;
+        }
+
+        footer #rodape p {
+            font: 14px Arial, Verdana, Tahoma;
+            color: rgb(235, 228, 228);
+            text-align: center;
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="topo">
+        <div id="logotipo">
+            <a href="index.html" onfocus="blur(this);"><img src="logotipo.png"/></a>
+        </div>
+        <div id="menu">
+            <p><a href="index.html" onfocus="blur(this);">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="empresa.html" onfocus="blur(this);">Empresa</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="produtos.html" onfocus="blur(this);">Produtos</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="contato.html" onfocus="blur(this);">Contato</a></p>
+        </div>
+        </div>
+        </header>
+    <section>
+        <div id="conteudo">
+        <div id="empurra_banner">
+        </div>
+        <div id="banner">
+            <a href="#" onfocus="blur(this);"><img src="banner.png"/>
+            </a>
+        </div>
+        <h1>Título da Página</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+            has been the industry's standard dummy text ever since the 1500s, when an unknown 
+            printer took a galley of type and scrambled it to make a type specimen book.<br><br> 
+            It has survived not only five centuries, but also the leap into electronic typesetting, 
+            remaining essentially unchanged. It was popularised in the 1960s with the release of 
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </section>
+    <footer>
+        <div id="rodape">
+        <p>Página desenvolvida utilizando HTML5</p>
+        </div>
+    </footer>
+</body>
+</html>

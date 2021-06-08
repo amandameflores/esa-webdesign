@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="envia.php" method="POST">
+        Estados:<br><br>
+        <select style="cursor:pointer">
+            <option value="São Paulo">São Paulo</option>
+            <option value="Mato Grosso do Sul" selected>Mato Grosso do Sul</option>
+            <option value="Santa Catarina"> Santa Catarina</option>
+            <option value="Amapá">Amapá</option>
+            <option value="Sergipe">Sergipe</option>
+        </select><br><br>
+    
+        <select style="cursor:pointer">
+            <optgroup label="Cores">
+            <option value="Verde" selected>Verde</option>
+            <option value="Azul">Azul</option>
+            <option value="Amarelo">Amarelo</option>
+            </optgroup><br><br>
+
+            <optgroup label="Frutas">
+            <option value="Mamão">Mamão</option>
+            <option value="Abacaxi">Abacaxi</option>
+            <option value="Banana">Banana</option>
+            </optgroup>
+        </select><br><br>
+        <input type="submit" name="btn-enviar" value="Enviar">
+    </form>
+</body>
+</html>
